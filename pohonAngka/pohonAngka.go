@@ -4,7 +4,7 @@ import "fmt"
 func main(){
     var rows int
     var temp int = 1
-    fmt.Print("Enter number of rows : ")
+    fmt.Print("Masukkan berapa baris : ")
     fmt.Scan(&rows)
  
     for i := 1; i <= rows; i++ { 
